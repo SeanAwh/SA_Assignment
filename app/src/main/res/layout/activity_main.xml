@@ -32,6 +32,14 @@
                 android:text="Stop tracking warranty renewals manually" />
 
             <TextView
+                android:id="@+id/tvLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Learn more at our website."
+                android:textColor="#315D93" />
+
+            <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -54,10 +62,10 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="200dp"
+                android:layout_width="250dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
-                tools:srcCompat="@drawable/add" />
+                app:srcCompat="@drawable/add" />
 
             <TextView
                 android:id="@+id/textView7"
